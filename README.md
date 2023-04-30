@@ -1,3 +1,5 @@
+> This is an archive of the code for Galant. It is licensed by the [Gnu Public License](https://www.gnu.org/licenses/gpl.html).
+
 # 2023SpringTeam37-Stallmann
 
 <div align='center'>
