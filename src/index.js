@@ -15,9 +15,10 @@ import { Routes, Route, BrowserRouter, Link, Navigate } from 'react-router-dom';
 import { GraphProvider } from 'frontend/GraphContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const basename = process.env.PUBLIC_URL || '';
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
         <Routes>
             <Route exact path='/' element={
                 <>
